@@ -1,16 +1,9 @@
 package FormTransaksi;
 
-// 1. Untuk GUI dan JOptionPane
 import javax.swing.*; 
-
-// 2. Untuk operasi Database (Connection, DriverManager, PreparedStatement, SQLException)
 import java.sql.*; 
-
-// 3. Untuk Logging (Level, Logger) - Wajib untuk Logger.getLogger().log(Level.SEVERE, ...)
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-// 4. (Opsional, tapi seringkali dibutuhkan)
 import java.awt.*;
 import java.awt.event.*;
 
